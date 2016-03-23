@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+.content{
+	max-width: 30%;
+}
+
+.input_text{
+	widows: 200px;
+}

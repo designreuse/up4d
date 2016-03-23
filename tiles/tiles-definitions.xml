@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="adminTemplate" template="/template/admincp/template.jsp">
+        <put-attribute name="navigation" value="/template/admincp/navigation.jsp" />
+        <put-attribute name="header" value="/template/admincp/header.jsp" />
+        <put-attribute name="footer" value="/template/admincp/footer.jsp" />
+    </definition>
+
+    <definition name="homeTemplate" template="/template/home/template.jsp">
+        <put-attribute name="navigation" value="/template/home/navigation.jsp" />
+        <put-attribute name="footer" value="/template/home/footer.jsp" />
+    </definition>
+    
+    <definition name="tempTemplate" template="/template/temp/template.jsp">
+        <put-attribute name="header" value="/template/temp/header.jsp" />
+        <put-attribute name="footer" value="/template/temp/footer.jsp" />
+    </definition>
+    
+    <definition name="landingTemplate" template="/template/landing/template.jsp">
+        <put-attribute name="header" value="/template/landing/header.jsp" />
+        <put-attribute name="footer" value="/template/landing/footer.jsp" />
+    </definition>
+    
+</tiles-definitions>
